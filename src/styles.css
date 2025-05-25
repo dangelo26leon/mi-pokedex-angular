@@ -1,0 +1,53 @@
+/* Estilos globales para Mi Pokedex Angular */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Estilos para mejorar la apariencia general */
+.container {
+  max-width: 1200px;
+}
+
+/* Botones personalizados */
+.btn-utp {
+  background-color: #8B0000;
+  border-color: #8B0000;
+  color: white;
+}
+
+.btn-utp:hover {
+  background-color: #6d0000;
+  border-color: #6d0000;
+  color: white;
+}
+
+/* Cards con mejor sombra */
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: none;
+  margin-bottom: 1rem;
+}
+
+/* Mejoras en formularios */
+.form-control:focus {
+  border-color: #8B0000;
+  box-shadow: 0 0 0 0.2rem rgba(139, 0, 0, 0.25);
+}
+
+/* Animaciones suaves */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Responsive text */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.1rem;
+  }
+}

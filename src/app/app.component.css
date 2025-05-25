@@ -1,0 +1,24 @@
+/* src/app/app.component.css */
+.bg-utp {
+  background-color: #8B0000; /* Color UTP */
+}
+
+.main-content {
+  padding-top: 80px; /* Ajusta según la altura de tu navbar */
+  padding-bottom: 60px; /* Ajusta según la altura de tu footer */
+  min-height: calc(100vh - 120px); /* Para que el footer quede abajo si hay poco contenido */
+}
+
+.utp-footer {
+  background-color: #f8f9fa; /* Un gris claro para el footer */
+  border-top: 1px solid #dee2e6;
+  color: #6c757d;
+  position: relative; /* o fixed/absolute si lo quieres siempre visible */
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #ffc107 !important; /* Un color destacado para el enlace activo */
+}

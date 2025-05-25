@@ -1,0 +1,76 @@
+/* Estilos del componente de búsqueda de Pokémon */
+.pokemon-search-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.bg-utp {
+  background-color: #8B0000 !important;
+}
+
+.pokemon-details-card {
+  margin-top: 20px;
+  border-color: #8B0000;
+  border-width: 2px;
+}
+
+.pokemon-details-card .card-header {
+  background-color: #8B0000;
+  color: white;
+  font-weight: bold;
+}
+
+.pokemon-image {
+  max-width: 200px;
+  border: 2px solid #8B0000;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ability-item {
+  font-size: 1rem;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border-left: 4px solid #8B0000 !important;
+  margin-bottom: 5px;
+}
+
+.evolution-info {
+  font-size: 1.1rem;
+  padding: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  border-left: 4px solid #ffc107;
+  font-weight: 500;
+}
+
+.list-group-item {
+  border-left: none;
+  border-right: none;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f1f3f4;
+}
+
+.list-group-item:first-child {
+  border-top: none;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+/* Mejoras en el diseño responsive */
+@media (max-width: 768px) {
+  .pokemon-search-container {
+    margin: 0 10px;
+  }
+  
+  .pokemon-image {
+    max-width: 150px;
+  }
+}
